@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/app.css" />
+    <title>New Record Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center mt-4 mb-4 p-4 bg-success text-white">
+        Create New Draft
+      </h1>
+      <a href="Author-Home-Page" class="btn btn-secondary mb-4"
+        >Author Home Page</a
+      >
+      <form action="create-new-draft" method="post">
+        <div class="container border p-4 border border-dark rounded">
+          <label for="AuthorName">Author Name</label>
+          <br />
+          <input
+            class="border border-dark w-100"
+            type="text"
+            id="articles_AuthorName"
+            name="articles_AuthorName"
+          />
+          <br />
+          <label for="Title">Title</label>
+          <br />
+          <input
+            class="border border-dark w-100"
+            type="text"
+            id="articles_Title"
+            name="articles_Title"
+          />
+          <br />
+          <label for="Subtitle">Subtitle</label>
+          <br />
+          <input
+            class="border border-dark w-100"
+            type="text"
+            id="articles_Subtitle"
+            name="articles_Subtitle"
+          />
+          <br />
+          <label for="Content">Content</label>
+          <br />
+          <textarea
+            class="form-control border border-dark"
+            id="articles_Content"
+            name="articles_Content"
+            rows="6"
+          ></textarea>
+
+          <button type="submit" class="btn btn-primary btn-sm mt-4">
+            Create draft
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
