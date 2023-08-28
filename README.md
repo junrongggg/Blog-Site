@@ -80,4 +80,4 @@ To access the Author Home pages, click on the log in button on the Reader Home P
 
 **username: admin**
 
-**password: admin123***
+**password: admin123**
