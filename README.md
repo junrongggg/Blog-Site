@@ -78,5 +78,6 @@ the `build-db` and `clean-db` scripts were changed to accomodate development on 
 
 To access the Author Home pages, click on the log in button on the Reader Home Page. You will be redirected to a log in page, the username and password are:
 
-username: admin
-password: admin123
+**username: admin**
+
+**password: admin123***
